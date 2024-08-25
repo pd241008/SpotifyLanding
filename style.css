@@ -1,0 +1,370 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+body{
+  background: rgb(0, 0, 0);
+}
+
+.sidenav{
+  width: 250px;
+  background: rgb(19, 19, 19);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 5px;
+}
+.nav {
+  background: #232222;
+  border-radius: 15px;
+  padding: 20px 10px;
+  overflow: auto;
+  margin-bottom: 7px;
+}
+.nav li a{
+  color: rgb(41, 39, 39);
+}
+.sidenav .logo {
+  width: 100px;
+}
+
+.sidenav .logo img{
+  width: 100%;
+}
+
+.sidenav ul {
+  list-style: none;
+
+}
+
+.sidenav ul li {
+  padding: 10px 20px;
+
+}
+
+
+.sidenav ul li a:hover {
+  padding: 10px 20px;
+  text-decoration: underline;
+  color: rgb(133, 133, 133);
+
+}
+
+.sidenav ul li a {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.Library {
+  color: #b6b6b6;
+  text-decoration:none;
+}
+.Library::after{
+   content: '+';
+   float: right;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   text-align: left;
+   border-radius: 30px;
+   font-size: 15px;
+}
+
+.playlist {
+  background:rgba(61, 58, 58, 0.352);
+  padding: 30px 15px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.scroll{ 
+  height: 120px;
+  overflow: auto;
+  padding: 8px;
+  color: #ffffff
+}
+.scroll::-webkit-scrollbar{
+  background:transparent;
+  width:10px;
+ } 
+.scroll::-webkit-scrollbar-thumb{
+ background:transparent;
+ width:15px;
+} 
+.scroll:hover::-webkit-scrollbar-thumb{
+  background: rgb(62, 60, 60);
+  width:5px;
+
+ }
+
+.playlist h4 {
+  color: rgb(144, 145, 146);
+  font-size: 15px;
+  margin: 12px 0;
+
+}
+.playlist p {
+  color: rgb(144, 145, 146);
+  font-size: 15px;
+  margin: 12px 0;
+
+}
+.playlist button{
+ padding: 0px 20px;
+ border-radius: 10px;
+}
+
+.priv ul li a {
+  text-decoration: none;
+  color: #6c6363;
+font-size: 13px;
+font-weight: 600;
+margin:0 5px;
+
+}
+.priv ul li a:hover {
+  text-decoration: underline;
+  color: rgb(129, 129, 129);
+}
+.priv ul {
+  list-style: none;
+  margin-top: 10px;
+
+}
+.priv ul li {
+padding: 0px 12;
+padding-bottom: 8px;
+}
+.main{
+  margin-left: 300px;
+  background:rgb(24, 24, 24);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding:20;
+ 
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0d0d0d;
+  border-radius: 15px;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(78, 76, 76);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #575656;
+  color: rgb(95, 94, 94);
+  border-radius: 10px;
+}
+.SearchBar {
+  position: absolute;
+  top: 355px;
+  left: 575px;
+}
+
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.main .login {
+    padding: 15px 30px;
+    background: rgb(26, 25, 25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:0px;
+}
+.main .login .buttons{
+    
+    background: rgb(26, 25, 25);
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .login .Sign-up{
+    margin:5px;
+    width: 70px;
+    height:25px;
+    border: 20px;
+    border-radius: 30px;
+
+}
+.main .login .Sign-up:hover{
+    display: block;
+    margin:5px;
+    width: 50px;
+    height:25px;
+    border: 20px;
+    padding:5px 20px;
+    border-radius: 20px;
+   background-color: aliceblue;
+   text-decoration-line: underline;
+}
+.main .login .Login{
+    margin:5px;
+    width: 70px;
+    height:25px;
+    border: 20px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+
+}
+.main .login .Login:hover{
+    display: block;
+    margin:5px;
+    width: 50px;
+    height:25px;
+    border: 20px;
+    padding:5px 20px;
+    border-radius: 20px;
+   background-color: rgb(12, 194, 12);
+   text-decoration-line: underline;
+}
+
+.playlist {
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    color: #0d0d0d;
+}
+.playlist h2{
+    color: white;
+    font-size: large;
+    margin-bottom: 20px;
+
+
+}
+.playlist .card{
+    display: absolute;
+    gap: 40px;
+    overflow: hidden;
+    padding-right: 200px;
+    justify-content: center;
+}
+.playlist .card .item{
+    width: 500px;
+   
+    background-color: rgb(41, 41, 41);
+    padding:35px;
+    border-radius: 5px;
+    overflow: auto;
+
+}
+.playlist .card:hover{
+    color: rgb(138, 138, 138);
+    
+
+}
+.playlist .card .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.playlist .card .item h3{
+   color: rgb(48, 49, 49);
+   font-size: 13px;
+   margin-top: 10px;
+
+}
+.playlist .card .item h3:hover{
+  
+  text-decoration: underline;
+ 
+}
+ 
+ .playlist .card{
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.Layout-info {
+  padding:0;
+  margin:0;
+
+  color:aliceblue;
+
+
+}
+.Layout-info:hover{
+  padding:0;
+  margin:0;
+  color: aliceblue;
+  text-decoration: underline;
+  
+}
+.footer-section{
+  padding: 20px 40px;
+}
+.footer-section .footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footer-section .footer .links{
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+.footer-section .footer .links .footer-colum{
+  margin: 0 12px;
+}
+
+.footer-section .footer .links div{
+color: rgb(196, 195, 195);
+font-weight: 600px;
+margin-bottom: 12px;
+font-size: 22px;
+}
+.footer-section .footer .links ul{
+ list-style: none;
+ margin:6px 0;
+ 
+}
+.footer-section .footer .links ul li{
+  list-style: none;
+  margin:6px 0;
+  color: rgb(105, 101, 93);
+}
+
+.footer-section .footer .links ul li a{
+text-decoration: none;
+color: #525251;
+font-size: 14px;
+cursor: pointer;
+
+}
+.footer-section .footer .links ul li a:hover{
+  text-decoration:underline;
+  color: #929090;
+  font-size: 16px;
+ 
+}
